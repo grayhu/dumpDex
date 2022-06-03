@@ -2,7 +2,19 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
+        debug {
+            storeFile file('D:\\workspace\\dumpDex\\signing.properties')
+            storePassword '87959367'
+            keyAlias 'KEY_ALIAS'
+            keyPassword '87959367'
+        }
         releaseConfig
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
     }
     compileSdkVersion 23
     buildToolsVersion '28.0.3'
@@ -42,12 +54,14 @@ android {
             path "CMakeLists.txt"
         }
     }
+    ndkVersion '17.2.4988734'
 }
 
 
 Properties props = new Properties()
 def propFile = file('../signing.properties')
-if (propFile.canRead()) {
+//if (propFile.canRead()) {
+if(propFile.exists()){
     props.load(new FileInputStream(propFile))
     if (props != null &&
             props.containsKey('SIGN_FILE') && props.containsKey('SIGN_PASSWORD') &&

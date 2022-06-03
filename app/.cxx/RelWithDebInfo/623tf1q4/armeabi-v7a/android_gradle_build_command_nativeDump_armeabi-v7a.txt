@@ -1,0 +1,7 @@
+Executable : C:\Users\gray\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\workspace\dumpDex\app\.cxx\RelWithDebInfo\623tf1q4\armeabi-v7a
+nativeDump
+jvmArgs : 
+

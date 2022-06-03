@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\workspace\dumpDex\app\.cxx\Debug\34j3a2b1\armeabi-v7a'
+ninja: no work to do.

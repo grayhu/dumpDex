@@ -1,0 +1,24 @@
+                    Executable : C:\Users\gray\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\workspace\dumpDex\app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=15
+-DANDROID_PLATFORM=android-15
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=C:\Users\gray\AppData\Local\Android\Sdk\ndk\17.2.4988734
+-DCMAKE_ANDROID_NDK=C:\Users\gray\AppData\Local\Android\Sdk\ndk\17.2.4988734
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\gray\AppData\Local\Android\Sdk\ndk\17.2.4988734\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\gray\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_CXX_FLAGS=-std=c++14 -fms-extensions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\workspace\dumpDex\app\build\intermediates\cxx\Debug\34j3a2b1\obj\arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\workspace\dumpDex\app\build\intermediates\cxx\Debug\34j3a2b1\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-BD:\workspace\dumpDex\app\.cxx\Debug\34j3a2b1\arm64-v8a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2
